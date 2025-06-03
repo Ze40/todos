@@ -1,0 +1,11 @@
+@use "./styles/variables.scss" as *;
+
+.main {
+  max-width: 800px;
+  aspect-ratio: 19 / 10;
+}
+
+.name {
+  font-size: $f-2xl;
+  font-weight: $f-w-main;
+}
