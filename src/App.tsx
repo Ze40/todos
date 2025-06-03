@@ -1,5 +1,12 @@
+import { AllTask } from "./pages";
+
 function App() {
-  return <></>;
+  return (
+    <main>
+      <h1>Do More</h1>
+      <AllTask />
+    </main>
+  );
 }
 
 export default App;
